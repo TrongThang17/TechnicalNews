@@ -17,11 +17,13 @@
                     <a href="#">Trang Chủ</a>                          
                     <a href="#">Tin Tức</a>                             
                     <a href="#">Giới Thiệu</a>               
-                    <a href="#">Đăng Nhập</a>
+                    
         </div>
     </div>
     <form id="form1" runat="server">
-        
+        <div>
+
+        </div>
     </form>
 </body>
 </html>
