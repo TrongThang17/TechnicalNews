@@ -86,16 +86,44 @@
                    </section>
                    <section class="col-3 item-footer">
                           <section class="item-header">Nhận Thông Báo</section>
-                          <div class="item-body">
+                          <section class="item-body">
                             <section class="text">Đăng ký để nhận được tin tức mới nhất.</section>
-                            <form action="" method="get" runat="server">
-                                <input class="sub-input" type="text" placeholder="Your email" id="inputmail" runat="server">
-                               <input type="submit" class="sub-btn" value="Subcribe" ">
+                            <form action="" method="">
+                                <input class="sub-input" type="text" placeholder="Your email" >
+                               <input type="submit" class="sub-btn" value="Subcribe">
                             </form>
-                          </div>
+                          </section>
                    </section>
                    <section class="col-3 item-footer">
                           <section class="item-header">Tin Mới Nhất</section>
+                          <section class="item-body">
+                                <ul class="list-news">
+                                    <li class="item-new">
+                                        <a class="item-img" href="../Post.aspx?id=">
+                                            <img src="../assets/img/posts/maytinh.jpg" alt="">
+                                        </a>
+                                        <a class="item-text" href="../Post.aspx?id=">Donec Consequat Lorem Quis Augue Pharetra</a>
+                                    </li>
+                                    <li class="item-new">
+                                        <a class="item-img" href="../Post.aspx?id=">
+                                            <img src="../assets/img/posts/maytinh.jpg" alt="">
+                                        </a>
+                                        <a class="item-text" href="../Post.aspx?id=">Donec Consequat Lorem Quis Augue Pharetra</a>
+                                    </li>
+                                    <li class="item-new">
+                                        <a class="item-img" href="../Post.aspx?id=">
+                                            <img src="../assets/img/posts/maytinh.jpg" alt="">
+                                        </a>
+                                        <a class="item-text" href="../Post.aspx?id=">Donec Consequat Lorem Quis Augue Pharetra</a>
+                                    </li>
+                                    <li class="item-new">
+                                        <a class="item-img" href="../Post.aspx?id=">
+                                            <img src="../assets/img/posts/maytinh.jpg" alt="">
+                                        </a>
+                                        <a class="item-text" href="../Post.aspx?id=">Donec Consequat Lorem Quis Augue Pharetra</a>
+                                    </li>
+                                </ul>
+                          </section>
                    </section>
                    <section class="col-3 item-footer">
                           <section class="item-header">Theo Dõi</section>
