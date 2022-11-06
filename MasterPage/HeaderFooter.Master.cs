@@ -4,16 +4,17 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using WEB.MasterPage;
 
-namespace WEB
+namespace WEB.MasterPage
 {
-    public partial class index : System.Web.UI.Page
+    public partial class HeaderFooter : System.Web.UI.MasterPage
     {
+       public string btn;
         protected void Page_Load(object sender, EventArgs e)
         {
            
-
         }
+
+       
     }
 }
